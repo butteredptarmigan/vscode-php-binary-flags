@@ -2,6 +2,12 @@
 	"name": "phpbinaryflags",
 	"displayName": "PHP binary flags",
 	"description": "Automatically generate sets of binary flags",
+	"publisher": "bloohirsch",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/butteredptarmigan/vscode-php-binary-flags"
+	},
+	"license": "GNU GPL 3.0",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.41.0"
