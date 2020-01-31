@@ -7,8 +7,8 @@ export class Generator
         let num = (from === null)
             ? 1
             : from * 2;
-        for (let i = 1; i < count; i++) {
-            const line = `public const $${i} = ${num};`;
+        for (let i = 0; i < count; i++) {
+            const line = `public const $${i + 1} = ${num};`;
             lines.push(line);
             num *= 2;
         }
